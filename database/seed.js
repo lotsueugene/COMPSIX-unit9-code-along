@@ -162,8 +162,7 @@ async function seedDatabase() {
         } catch (error) {
             console.log('Checkout model not found - skipping user seeding');
         }
-        
-        
+                
         await db.close();
         console.log('Database seeding completed.');
     } catch (error) {
